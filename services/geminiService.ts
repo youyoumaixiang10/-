@@ -3,7 +3,7 @@ import { MASTERS } from "../constants";
 import { Master, Message } from "../types";
 
 const getAIClient = () => {
-  const apiKey = process.env.API_KEY;
+  const apiKey = import.meta.env.VITE_GEMINI_API_KEY;
   if (!apiKey) {
     console.error("API_KEY is missing");
     throw new Error("API Key not found");
