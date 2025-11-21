@@ -396,7 +396,7 @@ const App: React.FC = () => {
         顶级大师智囊团
       </h1>
       <p className="font-content text-lg text-slate-400 mb-12 leading-relaxed max-w-lg mx-auto">
-        汇聚历史顶尖智慧——从<span className="text-slate-300 font-semibold">巴菲特</span>到<span className="text-slate-300 font-semibold">苏格拉底</span><br/>为您解答人生与职场的深层困惑。
+        汇聚历史顶尖智慧——从<span className="text-slate-300 font-semibold whitespace-nowrap">巴菲特</span>到<span className="text-slate-300 font-semibold whitespace-nowrap">苏格拉底</span><br/>为您解答人生与职场的深层困惑。
       </p>
       
       <div className="w-full bg-slate-900/60 p-1 rounded-2xl border border-slate-700/50 shadow-[0_0_40px_rgba(0,0,0,0.3)] backdrop-blur-xl transition-all hover:border-slate-600 hover:shadow-[0_0_50px_rgba(0,0,0,0.4)]">
