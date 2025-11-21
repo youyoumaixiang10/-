@@ -395,8 +395,8 @@ const App: React.FC = () => {
       <h1 className="font-heading text-4xl md:text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-b from-white to-slate-400 mb-4 tracking-tight drop-shadow-lg">
         顶级大师智囊团
       </h1>
-      <p className="font-content text-lg text-slate-400 mb-12 leading-relaxed max-w-lg mx-auto">
-        汇聚历史顶尖智慧——从<span className="text-slate-300 font-semibold whitespace-nowrap">巴菲特</span>到<span className="text-slate-300 font-semibold whitespace-nowrap">苏格拉底</span><br/>为您解答人生与职场的深层困惑。
+      <p className="font-content text-base md:text-lg text-slate-400 mb-12 leading-relaxed max-w-lg mx-auto px-4">
+        汇聚历史顶尖智慧——从<span className="text-slate-300 font-semibold whitespace-nowrap">巴菲特</span>到<span className="text-slate-300 font-semibold whitespace-nowrap">苏格拉底</span><br className="hidden md:block"/>为您解答人生与职场的深层困惑。
       </p>
       
       <div className="w-full bg-slate-900/60 p-1 rounded-2xl border border-slate-700/50 shadow-[0_0_40px_rgba(0,0,0,0.3)] backdrop-blur-xl transition-all hover:border-slate-600 hover:shadow-[0_0_50px_rgba(0,0,0,0.4)]">
@@ -537,7 +537,8 @@ const App: React.FC = () => {
              <svg className="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
              </svg>
-             调整阵容
+             <span className="hidden sm:inline">调整阵容</span>
+             <span className="inline sm:hidden">调整</span>
           </button>
           <button onClick={handleExportChat} className="hidden sm:flex items-center gap-1.5 text-xs font-medium text-slate-300 hover:text-white px-3 py-2 border border-slate-700/50 rounded-lg hover:bg-slate-800 transition bg-slate-900/50">
             <svg className="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
